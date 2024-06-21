@@ -47,7 +47,7 @@ const Agendamento: React.FC = () => {
   }, []);
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyAkBw5ZyUeP0FYNWyhlREMJR-yb_yZcGFs">
+    <LoadScript googleMapsApiKey="">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={userLocation || center}

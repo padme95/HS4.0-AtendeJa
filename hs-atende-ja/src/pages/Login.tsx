@@ -26,10 +26,7 @@ const Login: React.FC = () => {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
           'grant_type': 'password',
-          'client_id': '3MVG9ux34Ig8G5erjcCO_xOoFw9FWa3KFdBWhRDFxQ_RC5tOLFEhd6v8M_zfSLD4DzmVpZ.PArXpGmdgBHAiS',
-          'client_secret': 'FCCA58B5D794BFA13A418868C647E1097F17A03498188F9DF4F12CBD7B2B5D6F',
-          'username': 'vlocity@certification.com',
-          'password': 'salesforce2024',
+          
           'Access-Control-Allow-Origin': '*',
           'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
           'Access-Control-Allow-Headers': 'Content-Type, Authorization'
